@@ -255,7 +255,7 @@
                     <form action="https://formsubmit.co/irfansalman88@gmail.com" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" id="name" required>
+                                <input type="text" placeholder="Name" name="name" id="name" required>
                             </div>
                             <div class="field email">
                                 <input type="email" name="email" id="email" placeholder="Email" required>
@@ -265,11 +265,12 @@
                             <input type="text"  name="_subject" id="subject" placeholder="Subject">
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." id="message" required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." id="message" name="message" required></textarea>
                             <input type="hidden" name="_captcha" value="false">
                         </div>
                         <div class="button-area">
                             <button id="send_btn" type="submit">Send message</button>
+                            <input type="hidden" name="_next" value="">
                         </div>
                     </form>
                 </div>
@@ -278,9 +279,9 @@
     </section>
 
     <!-- footer section start -->
-<!--     <footer>
+    <footer>
         <span>Created By <a href="https://www.facebook.com/SalmanIrfan5122"> Salman Irfan </a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
-    </footer> -->
+    </footer>
     <!-- vanilla-tilt.js link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 <script src="script.js"></script>
