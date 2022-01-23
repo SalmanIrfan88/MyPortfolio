@@ -200,7 +200,7 @@ section .title::after{
     color: hsl(241, 94%, 34%);
     font-weight: 500;
 }
-.home .home-content button{
+.home .home-content a{
     display: inline-block;
     background: hsla(214, 75%, 39%, 0.979);
     color: #fff;
@@ -212,7 +212,7 @@ section .title::after{
     border: 2px solid hsla(214, 75%, 39%, 0.979);
     transition: all 0.3s ease;
 }
-.home .home-content button:hover{
+.home .home-content a:hover{
     color: hsla(214, 75%, 39%, 0.979);
     background: none;
 }
